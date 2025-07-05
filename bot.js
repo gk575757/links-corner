@@ -9,3 +9,4 @@ bot.onText(/\/start/, (msg) => {
 bot.on('message', (msg) => {
   bot.sendMessage(msg.chat.id, msg.text);
 });
+console.log('Bot running...');
